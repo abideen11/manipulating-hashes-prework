@@ -8,6 +8,9 @@ def second_challenge
 
   #code your solution here!
 
-  groceries.values
+  e_groceries = groceries.values
+  e_groceries.each do |i|
+    delete("[","]")
+  end 
 
 end
