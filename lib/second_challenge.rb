@@ -10,7 +10,7 @@ def second_challenge
 
   e_groceries = groceries.values
   e_groceries.each do |i|
-    delete("[","]")
+    e_groceries. delete "[","]"
   end 
 
 end
