@@ -14,7 +14,13 @@ def first_challenge
   }
 
   #your code here
+if person == "Jon Snow" 
+person.delete_if do |attribute,flavor| 
+  flavor == "strawberry"
+end
+end 
 
+  
 
   #remember to return your newly altered contacts hash!
   contacts
